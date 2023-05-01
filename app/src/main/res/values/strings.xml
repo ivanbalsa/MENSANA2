@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mens Sana</string>
+    <string name="stringtest"> esto es una prueba poniendo string en externo</string>
+    <string name="stringName"> Escribe aqui tu nombre</string>
+
+    <string name="boton_empezar">Empezar</string>
+    <string name="boton_foro">Foro</string>
+    <string name="boton_encuentra">Encuentra</string>
+    <string name="boton_tuscitas">Tus Citas</string>
+    <string name="boton_descubre">Descubre</string>
+    <string name="boton_pideayuda">Pide Ayuda</string>
+
+
+</resources>

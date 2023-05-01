@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/menssanav1"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MensSana"
+        tools:targetApi="31">
+        <activity
+            android:name=".citas.VerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".noticiaCompleta"
+            android:exported="false" />
+        <activity
+            android:name=".PideAyuda"
+            android:exported="false"
+            android:parentActivityName=".MenuPrincipal" />
+        <activity
+            android:name=".Descubre"
+            android:exported="false"
+            android:parentActivityName=".MenuPrincipal" />
+        <activity
+            android:name=".citas.TusCitas"
+            android:exported="false"
+            android:parentActivityName=".MenuPrincipal" />
+        <activity
+            android:name=".Encuentra"
+            android:exported="false"
+            android:parentActivityName=".MenuPrincipal" />
+        <activity
+            android:name=".citas.AgregarCita"
+            android:exported="false"
+            android:parentActivityName=".citas.TusCitas" />
+        <activity
+            android:name=".Foro"
+            android:exported="false"
+            android:parentActivityName=".MenuPrincipal" />
+        <activity
+            android:name=".MenuPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
